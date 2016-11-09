@@ -1,17 +1,75 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>Top by uguisumochi</title>
-      
+
+<head>
+  <meta charset="UTF-8">
+  <title>奄美大島の写真</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:200,300' rel='stylesheet' type='text/css'>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <link href="./css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <!--<link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">-->
+
+  <!--<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">-->
+  <link rel="stylesheet" type="text/css" href="./css/style.css" media="screen" />
+  <script src="./js/script.js"></script>
 </head>
 
-	<frameset rows="300,*", frameborder="0">
-	 <frame src="head.html">
-	 <frame src="amami.html" name="contents">
+<body>
+  <div id="page-header" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <span class="project-name navbar-brand">奄美大島の写真</span>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav nav navbar-right">
+          <li><a href="#amami" class="btn">奄美大島とは</a></li>
+          <li><a href="#sea" class="btn">海</a></li>
+          <li><a href="mountain.html" class="btn">山</a></li>
+          <li><a href="animal.html" class="btn">動物</a></li>
+          <li><a href="plant.html" class="btn">植物</a></li>
+          <li><a href="culture.html" class="btn">文化</a></li>
+      </div>
+    </div>
+  </div>
 
-  <body>
+  <div class="container">
+    <section class="content" id="amami">
+      <h2>
+        奄美大島とは
+      </h2>
+      <div class="row">
+        <div class="col-md-8">
+          <a href="#" class="thumbnail">
+            <img src="./img/I-shima.JPG">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <p class="text">
+            鹿児島と沖縄の中央ぐらいにある島。鹿児島県。2009年には皆既日食で話題に。
+          </p>
+        </div>
+      </div>
+    </section>
 
-  </body>
-	</frameset>
+    <section class="content" id="sea">
+      <h2>
+        海
+      </h2>
+      <div class="row">
+        <div class="col-md-8">
+          <a href="#" class="thumbnail">
+            <img src="./img/I-umi.JPG">
+          </a>
+        </div>
+        <div class="col-md-4">
+          <p class="text">
+            いかにも南国を思わせる海。写真は奄美大島北端の笠利。田中一村も描いたアダンが実っている。
+          </p>
+        </div>
+      </div>
+  </div>
+
+
+</body>
+
 </html>

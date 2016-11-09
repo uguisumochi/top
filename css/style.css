@@ -1,0 +1,16 @@
+body {
+    padding-top: 120px;
+}
+
+.content:not(:first-child) {
+    display: none;
+}
+
+.text{
+    font-size: 2em;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  text-decoration: currentColor !important;
+}
