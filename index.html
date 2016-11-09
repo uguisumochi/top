@@ -8,14 +8,37 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <style>
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#top_frame {
+	height: 100px;  /* ヘッダーの高さ */
+	left: 0;
+	margin: 0;
+	position: fixed;
+	_position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+#under_frame {
+	margin: 110px 0 0 0; /* ヘッダーの高さ分をマージンで空けておく */
+	_overflow: auto;
+	padding: 0;
+}
+</style>
+    
 </head>
 
   <body>
-  <table>
-    <td>
+
     <section class="page-header">
       <div align="left">
-        <h1 class="project-name">a私が撮った奄美大島の</h1>
+        <h1 class="project-name">私が撮った奄美大島の</h1>
         <h1 class="project-name">写真を自慢するページ</h1>
        </div>
       <h2 class="project-tagline"></h2>
@@ -26,7 +49,9 @@
       <a href="https://github.com/uguisumochi/top" class="btn">植物</a>
       <a href="https://github.com/uguisumochi/top" class="btn">文化</a>
       </section>
-      </td>
-  </table>
+    
+    <div id="top_frame"><p>ヘッダー（固定）</p></div>
+<div id="under_frame"><p>コンテンツ（スクロール）</p></div>
+      
   </body>
 </html>
