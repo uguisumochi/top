@@ -30,3 +30,8 @@ body {
     font-size: 30px;
     margin-top: 20px;
 }
+
+/*.btn:active,
+.btn:focus {
+  color: #9d9d9d;
+}*/
