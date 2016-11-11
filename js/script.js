@@ -6,7 +6,7 @@ $(function () {
         $(".page-header > h2").contents().replaceWith(e.target.text);
 		$("html,body").animate({
 			scrollTop: 0
-		}, 1500);
+		}, 1000);
     })
     $(".btn").click(function () { return false; });
 });
